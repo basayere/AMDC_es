@@ -1,0 +1,9 @@
+class Animal:
+    def __init__(self, sound):
+        self._sound = sound
+
+    def get_sound(self):
+        return self._sound
+
+animal = Animal("จิ๊บ")
+print(animal.get_sound())
